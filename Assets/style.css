@@ -1,18 +1,30 @@
 
 :root {
     --main-color-theme-primary:#000000;
-    --main-color-theme-secondary:#5f9ea0;
+    --main-color-theme-secondary:#09cde7;
     --main-color-theme-white:#ffffff;
     --main-color-theme-grey:#1d1d1f;
 
     --border-radius-5:5px;
     --border-radius-10:10px;
+    --border-readius-top: 5px 5px 0 0;
 }
 
 
 .navbar {
     background-color: var(--main-color-theme-primary) !important;
-    padding: 10px 10%;
+    padding: 0 10%;
+    background-color: transparent !important;
+    border-bottom: 2px solid var(--main-color-theme-secondary);
+    margin-top: -40px !important;
+
+}
+
+.navbar-brand {
+        padding: 6px 20px !important;
+        background-color: var(--main-color-theme-secondary);
+        border-radius: var(--border-readius-top);
+
 }
 
 .navbar-brand {
@@ -30,14 +42,17 @@
     font-size: 1.2rem;
     color: var(--main-color-theme-white) !important;
     margin-left: 20px;
-
-
+    padding: 16px !important;
+}
+.navbar-nav a:hover {
+    background-color: var(--main-color-theme-secondary);
+    border-radius: var(--border-readius-top);
 }
 
 .jumbotron {
-    display: flex;
+    /* display: flex; */
     height: calc(100vh - 25px);
-    background-image: url(./images/hero-bg.jpg);
+    background-image: url(./images/02-hero-bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,6 +63,7 @@
 
 .hero-copy {
     color: var(--main-color-theme-white);
+    margin-top: 15%;
 }
 .hero-copy h1 {
     font-size: 4rem;
@@ -67,9 +83,9 @@ margin-bottom: 60px;
 }
 
 .btn:hover {
-    background-color: #5f9ea0;
-    color: white;
-    border-color: cadetblue;
+    background-color: var(--main-color-theme-secondary);
+    color: var(--main-color-theme-white);
+    border-color: var(--main-color-theme-secondary);
 }
 
 .about {
