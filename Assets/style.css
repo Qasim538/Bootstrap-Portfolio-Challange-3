@@ -1,0 +1,99 @@
+
+:root {
+    --main-color-theme-primary:#000000;
+    --main-color-theme-secondary:#5f9ea0;
+    --main-color-theme-white:#ffffff;
+    --main-color-theme-grey:#1d1d1f;
+
+    --border-radius-5:5px;
+    --border-radius-10:10px;
+}
+
+
+.navbar {
+    background-color: var(--main-color-theme-primary) !important;
+    padding: 10px 10%;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: var(--main-color-theme-white) !important;
+
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+    margin-right: 0;
+    
+}
+.navbar-nav a {
+    font-size: 1.2rem;
+    color: var(--main-color-theme-white) !important;
+    margin-left: 20px;
+
+
+}
+
+.jumbotron {
+    display: flex;
+    height: calc(100vh - 25px);
+    background-image: url(./images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-copy {
+    color: var(--main-color-theme-white);
+}
+.hero-copy h1 {
+    font-size: 4rem;
+margin-bottom: 30px;
+}
+.hero-copy p {
+font-size: 2rem;
+margin-bottom: 60px;
+}
+
+.btn {
+    padding: 10px 90px !important;
+    border-radius: 30px;
+    background-color: transparent;
+    color:var(--main-color-theme-white);
+    border-color: var(--main-color-theme-white);
+}
+
+.btn:hover {
+    background-color: #5f9ea0;
+    color: white;
+    border-color: cadetblue;
+}
+
+.about {
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    height: 100vh;
+}
+.about h2 {
+    text-align: center;
+}
+
+.card {
+    border-radius: var(--border-radius-10);
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile {
+}
+.profile img{
+width: 30%;
+border-radius: 50%;
+
+}
