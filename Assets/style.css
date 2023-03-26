@@ -172,6 +172,20 @@ margin-bottom: 60px;
     display: inline-block;
     position: relative;
 }
+.work-box {
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: transform .2s;
+}
+.work-box:hover {
+    transform: scale(1.1);
+}
+
+.work-box img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
 
 
 
@@ -239,6 +253,14 @@ margin-bottom: 60px;
 
 /* ================= about =================== */
 
+.about {
+    width: 100%;
+    padding: 0 10% 5%;
+    margin: 0 auto;
+    background-color: var(--main-color-theme-lg);
+
+}
+
 .about .card {
     margin: 20px  auto;
     border: 2px solid var(--main-color-theme-lg);
@@ -260,5 +282,17 @@ margin-bottom: 60px;
     background-color: var(--main-color-theme-secondary);
 }
 
-.footer {
+.footer .list-inline-item {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.footer .list-inline-item i{
+   color: white;
+   transition: transform .2s;
+
+}
+.footer .list-inline-item i:hover{
+   color: var(--main-color-theme-secondary);
+   transform: scale(1.5);
+
 }
