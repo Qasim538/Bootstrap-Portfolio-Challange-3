@@ -4,12 +4,25 @@
     --main-color-theme-secondary:#09cde7;
     --main-color-theme-white:#ffffff;
     --main-color-theme-grey:#1d1d1f;
+    --main-color-theme-lg:#9c9c9c;
 
     --border-radius-5:5px;
     --border-radius-10:10px;
     --border-readius-top: 5px 5px 0 0;
 }
 
+.page-section {
+    margin: 60px auto !important;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* hr {
+    width: 50%;
+    border: none;
+    height: 3px;
+    background: var(--main-color-theme-secondary);
+} */
 
 .navbar {
     background-color: var(--main-color-theme-primary) !important;
@@ -89,6 +102,7 @@ margin-bottom: 60px;
 
 
 
+
 /* =========== About Section ================ */
 
 #about {
@@ -136,21 +150,58 @@ margin-bottom: 60px;
 
 
 /* ========= Work Section =========== */
-.skills {
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
+
+.work-box{
+    background-color: var(--main-color-theme-white);
+    text-align: left;
+    box-shadow: 5px 5px 10px #cccccc;
+    margin: 10px;
+    border-radius: var(--border-radius-10);
+    overflow: hidden;
 }
-.head-text-work {
+
+.box-text {
+    padding: 10px !important;
+
+}
+.head-text {
     margin: 60px 0 20px 0;
     width: 50%;
     margin: 40px auto 30px auto;
     padding-bottom: 1rem;
     display: inline-block;
     position: relative;
-
 }
-.head-text-work::before {
+
+
+
+/* ========= Skills Section =========== */
+
+.skills {
+    width: 100%;
+    padding: 0 10% 5%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(./images/skills-sec-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.skills .head-text {
+    margin: 60px 0 20px 0;
+    width: 50%;
+    margin: 40px auto 30px auto;
+    padding-bottom: 1rem;
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.skills .head-text h2 {
+    margin-top: 60px;
+}
+
+.head-text::before {
     content: "";
     position: absolute;
     left: 0;
@@ -161,7 +212,7 @@ margin-bottom: 60px;
     transition: width 0.25s ease-out;
 }
 
-.head-text-work:hover::before {
+.head-text:hover::before {
     width: 100%;
 }
 
