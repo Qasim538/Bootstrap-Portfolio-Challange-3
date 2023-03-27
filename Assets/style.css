@@ -17,12 +17,10 @@
     margin: 0 auto;
     text-align: center;
 }
-/* hr {
-    width: 50%;
-    border: none;
-    height: 3px;
-    background: var(--main-color-theme-secondary);
-} */
+
+
+
+/* ================== Navbar Section Start ============ */
 
 .navbar {
     background-color: var(--main-color-theme-primary) !important;
@@ -60,7 +58,13 @@
 .navbar-nav a:hover {
     background-color: var(--main-color-theme-secondary);
     border-radius: var(--border-readius-top);
+    box-shadow: 5px 5px 10px #cccccc;
 }
+
+/* ================== Navbar Section End ============ */
+
+
+/* ================== Hero Section Start ============ */
 
 .jumbotron {
     height: calc(100vh - 25px);
@@ -78,12 +82,13 @@
     margin-top: 15%;
 }
 .hero-copy h1 {
-    font-size: 4rem;
+font-size: 4rem;
 margin-bottom: 30px;
 }
+
 .hero-copy p {
 font-size: 2rem;
-margin-bottom: 60px;
+margin-bottom: 10%;
 }
 
 .btn {
@@ -100,11 +105,10 @@ margin-bottom: 60px;
     border-color: var(--main-color-theme-secondary);
 }
 
+/* ================== Hero Section End ============ */
 
 
-
-
-/* ========= Work Section =========== */
+/* ================== Work Section start =========== */
 
 .work-box{
     background-color: var(--main-color-theme-white);
@@ -142,9 +146,10 @@ margin-bottom: 60px;
     object-fit: cover;
 }
 
+/* ================== Work Section End =========== */
 
 
-/* ========= Skills Section =========== */
+/* ================ Skills Section  Start =========== */
 
 .skills {
     width: 100%;
@@ -203,25 +208,37 @@ margin-bottom: 60px;
     background-color: var(--main-color-theme-secondary);
 }
 
+/* ================ Skills Section  End =========== */
 
 
 
-/* ================= about =================== */
+/* ================= About me Section Start =================== */
+
+.about {
+    box-shadow: 5px 5px 10px #cccccc;
+    border-radius: var(--border-radius-10);
+
+}
 
  .form-group .btn{
     background-color: var(--main-color-theme-lg) !important;
 }
+ .form-group .btn:hover{
+    background-color: var(--main-color-theme-secondary) !important;
+    box-shadow: 5px 5px 10px #cccccc;
+}
+.form-section {
+    text-align: left;
+}
+.card-title {
+    
+}
+
+/* ================= About me Section End =================== */
 
 
 
-
-
-
-
-
-
-
-/* =============footer========== */
+/* ================ Footer Section Start ============== */
 
 .footer .list-inline-item {
     margin-top: 30px;
@@ -236,8 +253,9 @@ margin-bottom: 60px;
    color: var(--main-color-theme-secondary);
    transform: scale(1.5);
 
-
 }
+/* ================ Footer Section End ============== */
+
 
 
 
