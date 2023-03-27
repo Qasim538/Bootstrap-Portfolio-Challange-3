@@ -1,7 +1,7 @@
 
 :root {
     --main-color-theme-primary:#000000;
-    --main-color-theme-secondary:#09cde7;
+    --main-color-theme-secondary:#ffd500;
     --main-color-theme-white:#ffffff;
     --main-color-theme-grey:#1d1d1f;
     --main-color-theme-lg:#b2afaf;
@@ -31,16 +31,10 @@
 
 }
 
-.navbar-brand {
-        padding: 6px 20px !important;
-        background-color: var(--main-color-theme-secondary);
-        border-radius: var(--border-readius-top);
-
-}
-
-.navbar-brand {
-    font-size: 2rem;
-    color: var(--main-color-theme-white) !important;
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+    padding-bottom: 0px;
 
 }
 
@@ -57,7 +51,7 @@
 }
 .navbar-nav a:hover {
     background-color: var(--main-color-theme-secondary);
-    border-radius: var(--border-readius-top);
+    border-radius: var(--border-radius-5);
     box-shadow: 5px 5px 10px #cccccc;
 }
 
@@ -82,13 +76,14 @@
     margin-top: 15%;
 }
 .hero-copy h1 {
-font-size: 4rem;
-margin-bottom: 30px;
+    color: var(--main-color-theme-secondary);
+    font-size: 4rem;
+    margin-bottom: 30px;
 }
 
 .hero-copy p {
-font-size: 2rem;
-margin-bottom: 10%;
+    font-size: 2rem;
+    margin-bottom: 10%;
 }
 
 .btn {
