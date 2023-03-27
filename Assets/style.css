@@ -26,7 +26,7 @@
     background-color: var(--main-color-theme-primary) !important;
     padding: 0 10%;
     background-color: transparent !important;
-    border-bottom: 2px solid var(--main-color-theme-secondary);
+    border-bottom: 3px solid var(--main-color-theme-secondary);
     margin-top: -40px !important;
 
 }
@@ -219,6 +219,10 @@ margin-bottom: 10%;
     border-radius: var(--border-radius-10);
 
 }
+.about .card-text, .card-title  {
+    width: 60%;
+    margin:30px auto ;
+}
 
  .form-group .btn{
     background-color: var(--main-color-theme-lg) !important;
@@ -230,7 +234,10 @@ margin-bottom: 10%;
 .form-section {
     text-align: left;
 }
-.card-title {
+.contact-head {
+    margin-right: 0 !important;
+    margin-top: 30px;
+    text-align: center;
     
 }
 
