@@ -211,8 +211,6 @@
 
 .about {
     box-shadow: 5px 5px 10px #cccccc;
-    border-radius: var(--border-radius-10);
-
 }
 .about .card-text, .card-title  {
     width: 60%;
@@ -238,7 +236,8 @@
 
 .resume {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15%;
+    margin-bottom: 5%;
 }
 
 /* ================= About me Section End =================== */
